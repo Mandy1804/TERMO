@@ -51,7 +51,7 @@ function addGuessToBoard(guess) {
     row.appendChild(tile);
   });
 
-  // Segunda passada para marcar as letras "present"
+
   guessArray.forEach((letter, i) => {
     const tile = row.children[i];
     if (!tile.classList.contains("correct")) {
